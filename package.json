@@ -1,0 +1,24 @@
+{
+  "name": "mrt-project-new",
+  "version": "1.0.0",
+  "description": "1.\tО компании\r 2.\tКлиники или кабинеты\r 3.\tКТ обследования\r 4.\tМРТ обследования\r 5.\tУЗИ обследования\r 6.\tРентген обследования\r 7.\tГорячие предложения\r 8.\tСтатьи\r 9.\tКонтакты\r 10.\tВопрос-ответ (FAQ)\r 11.\tОбратный звонок",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Velikiydmitriy/mrt-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Velikiydmitriy/mrt-project/issues"
+  },
+  "homepage": "https://github.com/Velikiydmitriy/mrt-project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}
