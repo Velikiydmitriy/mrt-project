@@ -1,4 +1,56 @@
-.test {
-  border: 1px solid orange; }
-  .test__item {
-    font-size: 20px; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background-color: #3399cc;
+  padding: 25px 10px 15px 10px; }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 25px;
+  color: aliceblue; }
+  .logo__img {
+    margin-right: 29px; }
+
+.telephone {
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Tahoma;
+  justify-content: flex-end; }
+  .telephone__img {
+    margin-right: 20px; }
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+  font-family: Tahoma; }
+  .nav__item {
+    font-size: 20px;
+    color: #262626;
+    margin-left: 15px;
+    margin-right: 15px; }
+    .nav__item_active {
+      color: #ffffff; }
+    .nav__item_arrow {
+      background-image: url("../../img/logo.png");
+      background-size: 15px;
+      background-repeat: no-repeat;
+      background-position: right;
+      padding-right: 20px; }
+    .nav__item:last-child {
+      margin-right: 0; }
+    .nav__item a {
+      color: inherit;
+      text-decoration: none; }
