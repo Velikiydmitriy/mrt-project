@@ -1,37 +1,40 @@
-var hour = 9;
-    isWeekend = true;
+// Задача # 1
+var question = prompt('Каково официальное название "JavaScript"', '');
+if (question === 'Ecmascript') {
+    alert('Верно!');
+} else {
+    alert('Не знаете? "Ecmascript"')
+}
 
-    if (hour < 10 || hour > 18 || isWeekend) {
-        alert('офис до 10 или после 18 или в выходной закрыт')
+// Задача # 2
+var number = prompt('введите любое число', '');
+if (number > 0) {
+    alert('1');
+} else if (number < 0) {
+    alert('-1');
+} else if (number === 0) {
+    alert('0');
+}
+
+// Задача #3 ХЗ !!!!
+var question3 = prompt('Кто пришел?', 'Админ');
+if (question3 === 'Админ') {
+    alert(question31 = prompt('Пароль?', 'Черный Властелин'));}
+else
+    (question31 === 'Черный Властелин')
+    {
+        alert('Добро пожаловать')
     }
 
-// Тип данных "Число":
-var type_number;
-type_number = 1489;
-alert(type_number)
-
-// Тип данных "Строка":
-var str = "Этот тип данных - строка"
-alert(str)
-
-// Тип данных "Булевый или Логический":
-var checked = true;
-checked = false;
-alert(checked)
-
-// Тип данных "null", "ничего" :
-var age = null;
-alert(null)
-
-// Тип данных "undefined" :
-var x;
-alert(x)
-
-// Тип данных "массив" :
-var clinics = ["клиника 1", "клиника 2", "клиника 3"];
-alert(clinics)
-
-// Тип данных "обьект", имеет ключи :
-var object;
-object = {cl1: "клиника 1", cl2: "клиника 2", cl3: "клиника 3"};
-alert(object)
+// else if (question3 === 'Другое') {
+//     alert('Я вас не знаю');
+// } else if (question3 === false) {
+//     alert('Вход отменен')
+// }
+//
+// Задача #4
+var i = 0;
+while (i < 3) {
+    alert("номер" + i + "!");
+    i++;
+}
