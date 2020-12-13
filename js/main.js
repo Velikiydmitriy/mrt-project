@@ -17,24 +17,31 @@ if (number > 0) {
 }
 
 // Задача #3 ХЗ !!!!
-var question3 = prompt('Кто пришел?', 'Админ');
-if (question3 === 'Админ') {
-    alert(question31 = prompt('Пароль?', 'Черный Властелин'));}
-else
-    (question31 === 'Черный Властелин')
-    {
-        alert('Добро пожаловать')
-    }
+var question31 = prompt('Кто пришел?', 'Админ');
+if (question31 === 'Админ') {
+    alert(question32 = prompt('Пароль?', 'Черный Властелин'));
+} else if (question31 === null) {
+    alert('Вход отменён');
+} else {
+    alert('Я Вас не знаю');
+}
+if (question32 === 'Черный Властелин') {
+    alert('Добро пожаловать');
+} else if (question32 === null) {
+    alert('Вход отменён');
+} else {
+    alert('Пароль неверен');
+}
 
-// else if (question3 === 'Другое') {
-//     alert('Я вас не знаю');
-// } else if (question3 === false) {
-//     alert('Вход отменен')
-// }
-//
 // Задача #4
 var i = 0;
 while (i < 3) {
     alert("номер" + i + "!");
     i++;
 }
+
+// Задача #5
+var number;
+do {
+    number = prompt('Введите число больше 100');
+} while (number <= 100 && number)
