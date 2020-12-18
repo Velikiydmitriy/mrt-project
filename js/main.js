@@ -1,4 +1,4 @@
-/*// Задача # 1
+// Задача # 1
 var question = prompt('Каково официальное название "JavaScript"', '');
 if (question === 'Ecmascript') {
     alert('Верно!');
@@ -14,9 +14,9 @@ if (number > 0) {
     alert('-1');
 } else if (number === 0) {
     alert('0');
-}*/
+}
 
-// Задача #3 ХЗ !!!!
+// Задача #3
 var question31 = prompt('Кто пришел?', 'Админ');
 if (question31 === 'Админ') {
     question32 = prompt('Пароль?', 'Черный Властелин')
@@ -33,15 +33,7 @@ if (question31 === 'Админ') {
 } else {
     alert('Я Вас не знаю');
 }
-// if (question32 === 'Черный Властелин') {
-//     alert('Добро пожаловать');
-// } else if (question32 === null) {
-//     alert('Вход отменён');
-// } else {
-//     alert('Пароль неверен');
-// }
 
-/*
 // Задача #4
 var i = 0;
 while (i < 3) {
@@ -53,4 +45,4 @@ while (i < 3) {
 var number;
 do {
     number = prompt('Введите число больше 100');
-} while (number <= 100 && number)*/
+} while (number <= 100 && number)
